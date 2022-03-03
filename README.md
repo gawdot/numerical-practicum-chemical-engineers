@@ -54,6 +54,8 @@ References:
 4. [Oregonator Model](https://en.wikipedia.org/wiki/Oregonator): model for auto-catalysis, and thus interesting to explore; 
 5. [Implementation of Brusselator Model Ready to Roll](https://diffeq.sciml.ai/stable/tutorials/advanced_ode_example/) See Hairer-2 for the definition of the test case;  
 
+Help in developing this assignment: Shruti Shruti (TA financed by EEMCS Faculty) 
+
 Tentative deadline for students to hand-in their assignment: October 30th; 
 
 
@@ -65,6 +67,8 @@ Our goals:
 References: 
 1. [Poisson-Boltzmann Equation](https://en.wikipedia.org/wiki/Poisson–Boltzmann_equation)
 2. [Implementation of a Non-Linear Diffusion Equation Ready to Roll](https://rveltz.github.io/BifurcationKit.jl/dev/tutorials/Swift-Hohenberg1d/#d-Swift-Hohenberg-equation-(Automatic)) Possibly better examples do exist
+
+Help in developing this assignment: Abhimanyu Bharade (TA financed by EEMCS Faculty)
 
 Tentative deadline for students to hand-in their assignment: November 30th; 
 
@@ -78,10 +82,14 @@ References:
 
 ## Section 6/: HW5: Assignment on Reactors and Kinectics (van Ommen) 
 
+Our goals: 
+1. the goal of this assignment is to show examples of non-linear least squares optimization in chemical engineering. The identification of reaction rates in a chemical reaction mechanism from measured concentration data will be used as an example. Given their featuring in the ANM-2021 exam, the reactions of auto-catalysis will be used as a first example. The term forward model refers to solving the set of ordinary differential equations given the reaction rates as input. The term inverse model refers to estimating the reaction rates given measured data and the forward model. The project will target gradient-based optimization methods to minize the model misfit. We will look into gradient-descent, quasi-Newton and Newton methods. The gradient-descent and quasi-Newton require first order sensitivity information. The Newton method requires second order sensitivity information. We will employ ModelingToolkit.jl to represent the system of ordinary differential equations that depend on the parameters (the reaction rates). More details will be given later. 
+
 References:
-[Autocatalysis](https://en.wikipedia.org/wiki/Autocatalysis) 
-[Levenberg-Marquard](https://en.wikipedia.org/wiki/Levenberg–Marquardt_algorithm) 
-[Flux for Differential Equations](https://julialang.org/blog/2019/01/fluxdiffeq/) 
+1. [Autocatalysis](https://en.wikipedia.org/wiki/Autocatalysis) 
+2. [Levenberg-Marquard](https://en.wikipedia.org/wiki/Levenberg–Marquardt_algorithm) 
+3. [Flux for Differential Equations](https://julialang.org/blog/2019/01/fluxdiffeq/) 
+4. [Example of a non-linear least squares problem ready to roll](https://julialang.org/blog/2019/01/fluxdiffeq/) Non-Linear least-squares problem using a neural network problem.| 
 
 ## Section 7/: HW6: Assignment on Engineering Thermodynamics (Anna Smith)
 
@@ -116,15 +124,9 @@ Spectroscopy data available?
 b. References: 
 
 
+## Section 11/: HW10: Assignment on Machine Learning by Artur 
 
-```julia
-
-```
-
-
-```julia
-
-```
+Assignment by Artur on machine learning. To be detailed later. 
 
 
 ```julia
