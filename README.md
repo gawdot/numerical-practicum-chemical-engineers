@@ -89,7 +89,10 @@ References:
 1. [Autocatalysis](https://en.wikipedia.org/wiki/Autocatalysis) 
 2. [Levenberg-Marquard](https://en.wikipedia.org/wiki/Levenberg–Marquardt_algorithm) 
 3. [Flux for Differential Equations](https://julialang.org/blog/2019/01/fluxdiffeq/) 
-4. [Example of a non-linear least squares problem ready to roll](https://julialang.org/blog/2019/01/fluxdiffeq/) Non-Linear least-squares problem using a neural network problem.| 
+4. [Example of a non-linear least squares problem ready to roll](https://julialang.org/blog/2019/01/fluxdiffeq/) Non-Linear least-squares problem using a neural network problem.|
+
+Help in developing this assignment: Marc Caballero Megia (TA financed by EEMCS Faculty)
+
 
 ## Section 7/: HW6: Assignment on Engineering Thermodynamics (Anna Smith)
 
@@ -114,15 +117,6 @@ References:
 References:
 1. [Molecular Dynamics](https://juliamolsim.github.io/Molly.jl/stable/)
 2. [Quantum Thermodynamics](https://github.com/FermiQC/Fermi.jl)
-
-
-6/ HW5: Assignment on Reactors and Kinectics (van Ommen) 
-
-a. Introduction: Non-linear parameter estimation in systems of ODE modeling chemical reactions. 
-Spectroscopy data available? 
-
-b. References: 
-
 
 ## Section 11/: HW10: Assignment on Machine Learning by Artur 
 
