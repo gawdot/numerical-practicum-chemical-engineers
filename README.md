@@ -1,6 +1,17 @@
 # Numerical Practicum 2022 - Current Overview
 
-## Section 1/: Common to all Homework Assignments
+To add: 
+1. HW9: references to videos and Python code;
+2. HW10: links to convolution neural networks, (un)supervised learning and other machine learning tools; 
+
+## Section 1/: Course Overview 
+
+### In general 
+
+- formative assessment during the course: to be defined; 
+- summative assessment: via 6 homework assignments - no written exam any more - how to define retake? 
+
+### Common to all Homework Assignments 
 
 - Six assignments in total - 1 ECTS per assignment - 28 hours of work for students  
 - in Q1: three compulsory assignments (no freedom of choice)
@@ -8,9 +19,15 @@
 
 ## Section 2/: HW1: Recap/Intro of Prerequisites in Various Parts
 
-Our goal: Recap of prerequisites; 
+Our goal: Recap of prerequisites. Prepare for forthcoming assignments. In particular 
+1. spatial discretization of first and second order derivatives in space and time using the finite difference method: used in solving Poisson-Boltzmann equation and reaction-diffusion systems; 
+2. time-integration methods using explicit and implicit time-integration methods: used in solving reaction-diffusion problems and chemical reactors; 
+3. non-linear system solvers using derivative-based methods including techniques to compute the Jacobian: used in Poisson-Boltzmann equation; 
+4. solving linear systems solvers using direct solution methods: used in data handling methods and large scale partial differential equation problems; 
 
-Assignment in various sections on solving boundary value problem numerically.  
+### HW1: Part 2/4: Linear and Non-Linear Boundary Value Problems on the Interval
+
+Assignment in various sections on solving boundary value problem numerically.
 1. Intro into this assignment - explain what the goals are; 
 2. State problem to solve. Boundary value problem for the Poisson equation (diffusion with constant coefficient only) on the unit interval with Dirichlet and Neumann boundary conditions;
 3. Generate analytical reference solution. Use either by pen-and-paper or using symbolic computations;
@@ -19,17 +36,35 @@ Assignment in various sections on solving boundary value problem numerically.
 6. Solve linear system using LU decomposition of the coefficient matrix; compare LU with explicit matrix inverse; 
 7. Give physical interpretation of solution obtained (steady state of diffusion of drop of dye in water);  
 8. Add linear reaction term. Revisit all previous steps; 
-9. Add non-linear reaction term. Revisit previous steps. Recognize the problem this time to be non-linear. Identify problem as a root-finding problem in N dimensions. Compute the Jacobian. Solve non-linear system using Newton-Raphson method. Compare with reference solution. Give physical interpretation. Solving non-linear model will prepare for HW3; 
-10. Extend to partial differential and add transient term. Perform spatial discretization as above. Solve system of ordinary differential equation using a built-in time-stepping method; 
-11. Compute average,  derivative and frequency content of the computed solution; 
-12. Extend from 1D space (x) to 2D space (x,y) using finite difference method for the Poisson equation. In first step, use manufactured solutions as a reference. Use pulses a point sources or sinks in a subsequent step. The extension to 2D is required for HW2 and HW3. TU Delft bachelor students have no previous experience in solving partial differential equations numerically;   
-13. Change problem set-up to meet predefined target using non-linear optimization method. Compute cost function gradient and Hessian. Solve optimization problem using built-in method; 
-14. List here possibly other extensions and implementation specific issues; 
+9. Add non-linear reaction term. Revisit previous steps. Recognize the problem this time to be non-linear. Identify problem as a root-finding problem in N dimensions. Compute the Jacobian. Solve non-linear system using Newton-Raphson method. Compare with reference solution. Give physical interpretation; 
+
+References:  
+1. [One-Dimensional Finite Difference Method for BVP in Python](https://pythonnumericalmethods.berkeley.edu/notebooks/chapter23.03-Finite-Difference-Method.html)  
+2. [Newton's Method in Python](https://pythonnumericalmethods.berkeley.edu/notebooks/chapter19.04-Newton-Raphson-Method.html)
+3. [Newton's Method on wiki](https://en.wikipedia.org/wiki/Newton%27s_method)
+4. [Jacobian on wiki](https://en.wikipedia.org/wiki/Jacobian_matrix_and_determinant)
+
+### HW1: Part 3/4: Extension to time-dependent and two-dimensional probems 
+
+1. Extend to partial differential and add transient term. State problem to solve. Perform spatial discretization as above. Solve system of ordinary differential equation using a built-in time-stepping method. Give physical interpretation of solution obtained; 
+2. Extend to partial differential and add second partial derivastive with respect to space. State problem to solve. Perform spatial discretization as above. Form coefficient matrix as sum of two Kronecker products. Solve linear system of  equations using a built-in time-stepping method. Give physical interpretation of solution obtained;
+
+References 
+1. [The Method of Euler in Python](https://pythonnumericalmethods.berkeley.edu/notebooks/chapter22.03-The-Euler-Method.html)
+2. [Finite Difference Method for ODE and PDE on wiki](https://en.wikipedia.org/wiki/Finite_difference_method)
+3. [2D Discrete Poisson Eqiuation on wiki](https://en.wikipedia.org/wiki/Discrete_Poisson_equation)
+
+### HW1: Part 4/4: Extension to Data Handling and Optimization Methods  
+
+1. Compute average,  derivative and frequency content of the computed solution; 
+2. Extend from 1D space (x) to 2D space (x,y) using finite difference method for the Poisson equation. In first step, use manufactured solutions as a reference. Use pulses a point sources or sinks in a subsequent step. The extension to 2D is required for HW2 and HW3. TU Delft bachelor students have no previous experience in solving partial differential equations numerically;   
+3. Change problem set-up to meet predefined target using non-linear optimization method. Compute cost function gradient and Hessian. Solve optimization problem using built-in method; 
+4. List here possibly other extensions and implementation specific issues; 
 
 Out-of-scope: to be defined; 
 
 References:  
-1. [Finite Difference Method in Python](https://pythonnumericalmethods.berkeley.edu/notebooks/chapter23.03-Finite-Difference-Method.html)  
+1. to be inserted 
 
 Tentative deadline for students to hand-in their assignment: September 30th; 
 
