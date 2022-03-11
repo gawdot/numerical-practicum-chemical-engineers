@@ -17,6 +17,10 @@ To add:
 - in Q1: three compulsory assignments (no freedom of choice)
 - in Q2: possibly elective assignments (choice assignment corresponding to course)
 
+### Software installation for the course
+
+How to ensure that students do not encounter issues with software installation?  
+
 ## Section 2/: HW1: Recap/Intro of Prerequisites in Various Parts
 
 Our goal: Recap of prerequisites. Prepare for forthcoming assignments. In particular 
@@ -111,9 +115,10 @@ Tentative deadline for students to hand-in their assignment: November 30th;
 ## Section 5/: HW4: Assignment on Applied Transport Phenomena (Tom and Alina)
 
 References: 
-1. [CFD in Python](https://lorenabarba.com/blog/cfd-python-12-steps-to-navier-stokes/)
-2. [Hyperbolic Convervation Lwas on Adaptive Grids - TRIXIE](https://github.com/trixi-framework/Trixi.jl) 
-3. [Immersed Boundary Method - Waterlily](https://github.com/weymouth/WaterLily.jl)
+1. [New Book Introduction to Turbulence with Matlab Exercises](https://lnkd.in/dgeNVb9i)
+2\. [CFD in Python](https://lorenabarba.com/blog/cfd-python-12-steps-to-navier-stokes/)
+3. [Hyperbolic Convervation Lwas on Adaptive Grids - TRIXIE](https://github.com/trixi-framework/Trixi.jl) 
+4. [Immersed Boundary Method - Waterlily](https://github.com/weymouth/WaterLily.jl)
 
 ## Section 6/: HW5: Assignment on Reactors and Kinectics (van Ommen) 
 
@@ -140,6 +145,7 @@ References:
 More later: 
 
 References:
+1. [wiki on colloid](https://en.wikipedia.org/wiki/Colloid)
 
 ## Section 9/: HW8: Assignment on Organic Materials Engineering (Eduardo and Pouyan) 
 
@@ -149,13 +155,29 @@ References:
 
 ## Section 10/: HW9: Assignment on Inorganic Materials Engineering (Laurens Sibelles and Ferdinand Grozema) 
 
-References:
-1. [Molecular Dynamics](https://juliamolsim.github.io/Molly.jl/stable/)
-2. [Quantum Thermodynamics](https://github.com/FermiQC/Fermi.jl)
+References on molecular dynamics simulations:
+1. [Short (4.11 min) video giving overview of molecular dynamics](https://www.youtube.com/watch?v=lLFEqKl3sm4)
+ Valuable as introductory material, nice voice, good content; 
+2. [wiki page on molecular dynamics containing simulations](https://en.wikipedia.org/wiki/Molecular_dynamics) 
+3. [Molecular Dynamics using openmm.py](https://openmm.org) good content; 
+4. [Molecular Dynamics using Molly.jl](https://juliamolsim.github.io/Molly.jl/stable/)
+5. Molecular Dynamics simulations for protein-folding: nice stuff! [ProtoSyn.jl code](https://github.com/sergio-santos-group/ProtoSyn.jl) (the list of 14 examples are potentially interesting to look into) and [Short (3.54 min) ProtoSyn video](https://www.youtube.com/watch?v=Z02zw8H-HQc)
+6. [(Advanced) Poster Presentation Julia software development for MD simulation](https://www.youtube.com/watch?v=wPRgd0mfwyM)
+
+
+References on quantum thermodynamic simulations 
+1. [Quantum Thermodynamics using Fermi.jl](https://github.com/FermiQC/Fermi.jl)
 
 ## Section 11/: HW10: Assignment on Machine Learning by Artur 
 
 Assignment by Artur on machine learning. To be detailed later. 
+
+References
+1. [wiki on neural network with valuable schematic](https://en.wikipedia.org/wiki/Neural_network) 
+2. [wiki on artificial neural network with broad overview](https://en.wikipedia.org/wiki/Artificial_neural_network#Practical_counterexamples)
+3. [Video with history of neural networks](https://www.youtube.com/watch?v=GVsUOuSjvcg)
+4. [Overview Paper on Physics informed Neural Networks](https://arxiv.org/pdf/2201.05624.pdf) The part on ODEs might be valuable to us. 
+
 
 
 ```julia
