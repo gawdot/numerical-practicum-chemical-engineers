@@ -1,10 +1,21 @@
 # Numerical Practicum 2022 - Current Overview
 
-To add: 
-1. HW9: references to videos and Python code;
-2. HW10: links to convolution neural networks, (un)supervised learning and other machine learning tools; 
+Course description follows.
 
-## Section 1/: Course Overview 
+## Section 1/: List of Current Assignments
+
+1. HW1: Recap/Intro of Prerequisites;
+2. HW2: Solving Reaction-Diffusion Systems in Pursuit of Turing Patterns (with Bijoy Bera in PDC Course) 
+3. HW3: Solving the Poisson-Boltzmann Equation  (with Valeria Gabin and Pouyan Boukany in MTP Course)
+4. HW4: Assignment on Applied Transport Phenomena (Tom and Alina)
+5. HW5: Assignment on Reactors and Kinectics (Ruud van Ommen)
+6. HW6: Assignment on Engineering Thermodynamics (Anna Smith)
+7. HW7: Assignment on  Colloids and Interfaces (Laura and Monique)
+8. HW8: Assignment on Organic Materials Engineering (Eduardo and Pouyan) 
+9. HW9: Assignment on Inorganic Materials Engineering (Laurens Sibelles and Ferdinand Grozema) 
+10. HW10: Assignment on Machine Learning by Artur
+
+## Section 2/: Course Overview 
 
 ### In general 
 
@@ -19,9 +30,16 @@ To add:
 
 ### Software installation for the course
 
-How to ensure that students do not encounter issues with software installation?  
+- how to ensure that students do not encounter issues with software installation?  
+- python and object oriented programming;
+- python and the two language problem; 
 
-## Section 2/: HW1: Recap/Intro of Prerequisites in Various Parts
+### Other arrangements to be made
+
+- establish house rules for the course;
+- establish Q&A for the course;
+
+## Section 3/: HW1: Recap/Intro of Prerequisites in Various Parts
 
 Our goal: Recap of prerequisites. Prepare for forthcoming assignments. In particular 
 1. spatial discretization of first and second order derivatives in space and time using the finite difference method: used in solving Poisson-Boltzmann equation and reaction-diffusion systems; 
@@ -29,7 +47,7 @@ Our goal: Recap of prerequisites. Prepare for forthcoming assignments. In partic
 3. non-linear system solvers using derivative-based methods including techniques to compute the Jacobian: used in Poisson-Boltzmann equation; 
 4. solving linear systems solvers using direct solution methods: used in data handling methods and large scale partial differential equation problems; 
 
-### HW1: Part 2/4: Linear and Non-Linear Boundary Value Problems on the Interval
+### HW1: Part 1/4: Linear Boundary Value Problems on the Interval
 
 Assignment in various sections on solving boundary value problem numerically.
 1. Intro into this assignment - explain what the goals are; 
@@ -39,14 +57,19 @@ Assignment in various sections on solving boundary value problem numerically.
 5. Discretize the problem in space. Introduce into finite difference method for the boundary value problem. Treatment of interior and boundary nodes. Linear system formulation: matrix and right-hand side vector. Make sure to provide sufficient references; 
 6. Solve linear system using LU decomposition of the coefficient matrix; compare LU with explicit matrix inverse; 
 7. Give physical interpretation of solution obtained (steady state of diffusion of drop of dye in water);  
-8. Add linear reaction term. Revisit all previous steps; 
-9. Add non-linear reaction term. Revisit previous steps. Recognize the problem this time to be non-linear. Identify problem as a root-finding problem in N dimensions. Compute the Jacobian. Solve non-linear system using Newton-Raphson method. Compare with reference solution. Give physical interpretation; 
+8. Add linear reaction term. Revisit all previous steps;
 
 References:  
-1. [One-Dimensional Finite Difference Method for BVP in Python](https://pythonnumericalmethods.berkeley.edu/notebooks/chapter23.03-Finite-Difference-Method.html)  
-2. [Newton's Method in Python](https://pythonnumericalmethods.berkeley.edu/notebooks/chapter19.04-Newton-Raphson-Method.html)
-3. [Newton's Method on wiki](https://en.wikipedia.org/wiki/Newton%27s_method)
-4. [Jacobian on wiki](https://en.wikipedia.org/wiki/Jacobian_matrix_and_determinant)
+1. [One-Dimensional Finite Difference Method for BVP in Python](https://pythonnumericalmethods.berkeley.edu/notebooks/chapter23.03-Finite-Difference-Method.html)
+
+### HW1: Part 2/4: Extension to Non-Linear Boundary Value Problems on the Interval
+
+1. Add non-linear reaction term. Revisit previous steps. Recognize the problem this time to be non-linear. Identify problem as a root-finding problem in N dimensions. Compute the Jacobian. Solve non-linear system using Newton-Raphson method. Compare with reference solution. Give physical interpretation; 
+
+References:  
+1. [Newton's Method in Python](https://pythonnumericalmethods.berkeley.edu/notebooks/chapter19.04-Newton-Raphson-Method.html)
+2. [Newton's Method on wiki](https://en.wikipedia.org/wiki/Newton%27s_method)
+3. [Jacobian on wiki](https://en.wikipedia.org/wiki/Jacobian_matrix_and_determinant)
 
 ### HW1: Part 3/4: Extension to time-dependent and two-dimensional probems 
 
@@ -74,7 +97,7 @@ Tentative deadline for students to hand-in their assignment: September 30th;
 
 Formative assessment: Discussion of how assignment went after grading of assignments;
 
-## Section 3/: HW2: Solving Reaction-Diffusion Systems in Pursuit of Turing Patterns (with Dr. Bera in PDC Course)
+## Section 4/: HW2: Solving Reaction-Diffusion Systems in Pursuit of Turing Patterns (with Bijoy Bera in PDC Course)
 
 Our goals: 
 1. solve reaction-diffusion systems numerically and find Turing patterns; 
@@ -98,7 +121,7 @@ Help in developing this assignment: Shruti Shruti (TA financed by EEMCS Faculty)
 Tentative deadline for students to hand-in their assignment: October 30th; 
 
 
-## Section 4/: HW3: Solving the Poisson-Boltzmann Equation  (with Dr. Gabin and Dr. Boukany in MTP Course)
+## Section 5/: HW3: Solving the Poisson-Boltzmann Equation  (with Valeria Gabin and Pouyan Boukany in MTP Course)
 
 Our goals:
 1. Solve the Poisson-Boltzmann Equation numerically using central second order finite difference in space and Newton iteration to treat the non-linearity; 
@@ -112,15 +135,11 @@ Help in developing this assignment: Abhimanyu Bharade (TA financed by EEMCS Facu
 Tentative deadline for students to hand-in their assignment: November 30th; 
 
 
-## Section 5/: HW4: Assignment on Applied Transport Phenomena (Tom and Alina)
+## Section 6/: HW4: Assignment on Applied Transport Phenomena (Tom and Alina)
 
-References: 
-1. [New Book Introduction to Turbulence with Matlab Exercises](https://lnkd.in/dgeNVb9i)
-2\. [CFD in Python](https://lorenabarba.com/blog/cfd-python-12-steps-to-navier-stokes/)
-3. [Hyperbolic Convervation Lwas on Adaptive Grids - TRIXIE](https://github.com/trixi-framework/Trixi.jl) 
-4. [Immersed Boundary Method - Waterlily](https://github.com/weymouth/WaterLily.jl)
+See [notebook](HW4-transport.ipynb). 
 
-## Section 6/: HW5: Assignment on Reactors and Kinectics (van Ommen) 
+## Section 7/: HW5: Assignment on Reactors and Kinectics (van Ommen) 
 
 Our goals: 
 1. the goal of this assignment is to show examples of non-linear least squares optimization in chemical engineering. The identification of reaction rates in a chemical reaction mechanism from measured concentration data will be used as an example. Given their featuring in the ANM-2021 exam, the reactions of auto-catalysis will be used as a first example. The term forward model refers to solving the set of ordinary differential equations given the reaction rates as input. The term inverse model refers to estimating the reaction rates given measured data and the forward model. The project will target gradient-based optimization methods to minize the model misfit. We will look into gradient-descent, quasi-Newton and Newton methods. The gradient-descent and quasi-Newton require first order sensitivity information. The Newton method requires second order sensitivity information. We will employ ModelingToolkit.jl to represent the system of ordinary differential equations that depend on the parameters (the reaction rates). More details will be given later. 
@@ -134,41 +153,40 @@ References:
 Help in developing this assignment: Marc Caballero Megia (TA financed by EEMCS Faculty)
 
 
-## Section 7/: HW6: Assignment on Engineering Thermodynamics (Anna Smith)
+## Section 8/: HW6: Assignment on Engineering Thermodynamics (Anna Smith)
 
-See slides for request to Anna to provide more input. 
+See [notebook](HW6-thermo.ipynb). 
 
-References:
-
-## Section 8/: HW7: Assignment on  Colloids and Interfaces (Laura and Monique)
+## Section 9/: HW7: Assignment on  Colloids and Interfaces (Laura and Monique)
 
 More later: 
 
 References:
 1. [wiki on colloid](https://en.wikipedia.org/wiki/Colloid)
 
-## Section 9/: HW8: Assignment on Organic Materials Engineering (Eduardo and Pouyan) 
+## Sect 10/: HW8: Assignment on Organic Materials Engineering (Eduardo and Pouyan) 
 
 Polymer physics, random walk, stochastic differential equations
 
 References:
 
-## Section 10/: HW9: Assignment on Inorganic Materials Engineering (Laurens Sibelles and Ferdinand Grozema) 
+## Section 11/: HW9: Assignment on Inorganic Materials Engineering (Laurens Sibelles and Ferdinand Grozema) 
 
 References on molecular dynamics simulations:
 1. [Short (4.11 min) video giving overview of molecular dynamics](https://www.youtube.com/watch?v=lLFEqKl3sm4)
  Valuable as introductory material, nice voice, good content; 
-2. [wiki page on molecular dynamics containing simulations](https://en.wikipedia.org/wiki/Molecular_dynamics) 
-3. [Molecular Dynamics using openmm.py](https://openmm.org) good content; 
-4. [Molecular Dynamics using Molly.jl](https://juliamolsim.github.io/Molly.jl/stable/)
-5. Molecular Dynamics simulations for protein-folding: nice stuff! [ProtoSyn.jl code](https://github.com/sergio-santos-group/ProtoSyn.jl) (the list of 14 examples are potentially interesting to look into) and [Short (3.54 min) ProtoSyn video](https://www.youtube.com/watch?v=Z02zw8H-HQc)
-6. [(Advanced) Poster Presentation Julia software development for MD simulation](https://www.youtube.com/watch?v=wPRgd0mfwyM)
+2. [wiki page on molecular dynamics containing simulations](https://en.wikipedia.org/wiki/Molecular_dynamics)
+3. [Tutorial in implementing MD simulations in Python](https://klyshko.github.io/teaching/2019-03-01-teaching)
+4. [Molecular Dynamics using openmm.py](https://openmm.org) good content; 
+5. [Molecular Dynamics using Molly.jl](https://juliamolsim.github.io/Molly.jl/stable/)
+6. Molecular Dynamics simulations for protein-folding: nice stuff! [ProtoSyn.jl code](https://github.com/sergio-santos-group/ProtoSyn.jl) (the list of 14 examples are potentially interesting to look into) and [Short (3.54 min) ProtoSyn video](https://www.youtube.com/watch?v=Z02zw8H-HQc)
+7. [(Advanced) Poster Presentation Julia software development for MD simulation](https://www.youtube.com/watch?v=wPRgd0mfwyM)
 
 
 References on quantum thermodynamic simulations 
 1. [Quantum Thermodynamics using Fermi.jl](https://github.com/FermiQC/Fermi.jl)
 
-## Section 11/: HW10: Assignment on Machine Learning by Artur 
+## Section 12/: HW10: Assignment on Machine Learning by Artur 
 
 Assignment by Artur on machine learning. To be detailed later. 
 
