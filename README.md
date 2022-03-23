@@ -7,7 +7,7 @@ Course description follows.
 1. HW1: [Recap/Intro of Prerequisites](homework1/notebooks/HW1-intro.ipynb);
 2. HW2: [Solving Reaction-Diffusion Systems in Pursuit of Turing Patterns (with Bijoy Bera in PDC Course)](homework2/notebooks/HW2-pde-reaction-diffusion.ipynb) 
 3. HW3: [Solving the Poisson-Boltzmann Equation  (with Valeria Gabin and Pouyan Boukany in MTP Course)](homework3/notebooks/HW3-poisson-boltzmann.ipynb)
-4. HW4: Assignment on Applied Transport Phenomena (Tom and Alina)
+4. HW4: [Assignment on Applied Transport Phenomena (Tom and Alina)](homework4/notebooks/HW4-applied-transport-phenomena.ipynb)
 5. HW5: [Assignment on Reactors and Kinectics (dialogue with Ruud van Ommen)](homework5/notebooks/HW5-ode-reactors.ipynb)
 6. HW6: Assignment on Engineering Thermodynamics (Anna Smith)
 7. HW7: Assignment on  Colloids and Interfaces (Laura and Monique)
@@ -61,7 +61,7 @@ Tentative deadline for students to hand-in their assignment: November 30th;
 
 ## Section 6/: HW4: Assignment on Applied Transport Phenomena (Tom and Alina)
 
-See [notebook](HW4-transport.ipynb). (link to be fixed) 
+See [notebook](homework4/notebooks/HW4-applied-transport-phenomena.ipynb). 
 
 ## Section 7/: HW5: Assignment on Reactors and Kinectics (van Ommen) 
 
@@ -72,7 +72,7 @@ Help in developing this assignment: Marc Caballero Megia (TA financed by EEMCS F
 
 ## Section 8/: HW6: Assignment on Engineering Thermodynamics (Anna Smith)
 
-See [notebook](HW6-thermo.ipynb). (link to be fixed). 
+See [notebook](homework6/notebooks/HW6-engineering-thermodynamics.ipynb).
 
 ## Section 9/: HW7: Assignment on  Colloids and Interfaces (Laura and Monique)
 
